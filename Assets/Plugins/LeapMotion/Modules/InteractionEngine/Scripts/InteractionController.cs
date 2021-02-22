@@ -210,6 +210,11 @@ namespace Leap.Unity.Interaction {
     /// </summary>
     public Action OnGraspEnd = () => { };
 
+    /// <summary>
+    /// Called when contact data is initialized.
+    /// </summary>
+    public Action<InteractionController> OnContactInitialized = (intCtrl) => { };
+
     #endregion
 
     #region Unity Events
@@ -956,6 +961,7 @@ namespace Leap.Unity.Interaction {
         if (initContact()) {
           finishInitContact();
           _contactInitialized = true;
+          if (OnContactInitialized != null) OnContactInitialized(this);
         }
         else {
           return;
@@ -1098,15 +1104,6 @@ namespace Leap.Unity.Interaction {
         }
         Quaternion deltaRot = targetRotation * Quaternion.Inverse(body.rotation);
         body.angularVelocity = PhysicsUtility.ToAngularVelocity(deltaRot, Time.fixedDeltaTime);
-      }
-
-      CapsuleCollider cap = body.GetComponent<CapsuleCollider>();
-      if (cap) {
-        Vector3 a = Vector3.zero, b = Vector3.zero;
-        cap.GetCapsulePoints(out a, out b);
-        //StatusDrawer.DrawSphere(a,    cap.radius*2);
-        //StatusDrawer.DrawLine  (a, b, cap.radius*2);
-        //StatusDrawer.DrawSphere(b,    cap.radius*2);
       }
     }
 

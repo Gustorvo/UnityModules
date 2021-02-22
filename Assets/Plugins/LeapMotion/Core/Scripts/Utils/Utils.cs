@@ -2080,17 +2080,14 @@ namespace Leap.Unity {
       var effRadiusMult = capsule.GetEffectiveRadiusMultiplier();
       var capsuleDir = capsule.GetDirection();
 
-      a = capsuleDir * ((capsule.height / 2f) - capsule.radius);
+      a = capsuleDir * (capsule.height / 2f);
       b = -a;
-
-      //a += capsuleDir * effRadiusMult * capsule.radius * 0.25f;
-      //b -= capsuleDir * effRadiusMult * capsule.radius * 0.25f;
-      
-      a += capsule.center;
-      b += capsule.center;
 
       a = capsule.transform.TransformPoint(a);
       b = capsule.transform.TransformPoint(b);
+
+      a -= capsuleDir * effRadiusMult * capsule.radius;
+      b += capsuleDir * effRadiusMult * capsule.radius;
     }
 
     /// <summary>
