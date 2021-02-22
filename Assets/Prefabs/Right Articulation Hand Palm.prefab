@@ -1,0 +1,1563 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &45646150004280224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5931311345741048874}
+  - component: {fileID: 5100055526072158601}
+  - component: {fileID: 2183526527483108561}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5931311345741048874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45646150004280224}
+  m_LocalRotation: {x: 0.092763335, y: 0.0000000130073134, z: 0.000000009776728, w: 0.9956882}
+  m_LocalPosition: {x: 0.000000011046999, y: 0.000000013969837, z: 0.02564126}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 1747761041453213241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &5100055526072158601
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45646150004280224}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008745866
+  m_Height: 0.031048367
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.0067783175}
+--- !u!171741748 &2183526527483108561
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45646150004280224}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.000000011046999, y: 0.000000013969837, z: 0.02564126}
+  m_ParentAnchorRotation: {x: 0.09276336, y: 0.000000014901161, z: -0.000000033527613,
+    w: 0.99568856}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 10.641722
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &639981398217282567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2374762016820828639}
+  - component: {fileID: 7172987989271235464}
+  - component: {fileID: 8115173429811114000}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2374762016820828639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639981398217282567}
+  m_LocalRotation: {x: 0.1579668, y: 0.000000029802319, z: -0.000000014231771, w: 0.9874444}
+  m_LocalPosition: {x: -0.000000052154064, y: 0.000000033120163, z: 0.033421062}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 8504934033815659089}
+  m_Father: {fileID: 2951651339556433477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7172987989271235464
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639981398217282567}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0078073763
+  m_Height: 0.036387328
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.010386287}
+--- !u!171741748 &8115173429811114000
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639981398217282567}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.000000052154064, y: 0.000000033120163, z: 0.033421062}
+  m_ParentAnchorRotation: {x: 0.15796684, y: 0.000000044703484, z: -0.000000045634806,
+    w: 0.9874445}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 18.082367
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &1543561846873820885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6472466439585099240}
+  - component: {fileID: 7174776249064256125}
+  - component: {fileID: 7741831484506887708}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Palm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6472466439585099240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543561846873820885}
+  m_LocalRotation: {x: -0.17217046, y: 0.100258745, z: -0.22364771, w: 0.9540898}
+  m_LocalPosition: {x: 0.35924187, y: 1.7607671, z: -0.16849786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3215866317215132126}
+  - {fileID: 8442988333540469768}
+  - {fileID: 6955143783183333241}
+  - {fileID: 2951651339556433477}
+  - {fileID: 5566732615036989814}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!171741748 &7174776249064256125
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543561846873820885}
+  m_Enabled: 1
+  m_Mass: 1.8000001
+  m_ParentAnchorPosition: {x: 0, y: 0, z: 0}
+  m_ParentAnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 0
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 50
+  m_JointFriction: 0.05
+  m_Immovable: 1
+  m_UseGravity: 1
+--- !u!65 &7741831484506887708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543561846873820885}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06, y: 0.02, z: 0.07}
+  m_Center: {x: 0, y: 0.005, z: -0.015}
+--- !u!1 &1964935416689158022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2951651339556433477}
+  - component: {fileID: 484890591203987818}
+  - component: {fileID: 7580336662998400109}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2951651339556433477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964935416689158022}
+  m_LocalRotation: {x: -0.004003569, y: 0.10184694, z: -0.097560175, w: 0.98999655}
+  m_LocalPosition: {x: 0.016306639, y: 0.0036331648, z: 0.01612086}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 2374762016820828639}
+  m_Father: {fileID: 6472466439585099240}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &484890591203987818
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964935416689158022}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0078073763
+  m_Height: 0.049035795
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.016710522}
+--- !u!171741748 &7580336662998400109
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964935416689158022}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.016306639, y: 0.0036331648, z: 0.01612086}
+  m_ParentAnchorRotation: {x: -0.0040035807, y: 0.101846956, z: -0.097560205, w: 0.98999673}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 3
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 1
+  m_SwingZ: 1
+  m_Twist: 1
+  m_XDrive:
+    lowerLimit: -15
+    upperLimit: 80
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: -8.843646
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 2.8006508
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &3078091572284049380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8442988333540469768}
+  - component: {fileID: 1822838958355398901}
+  - component: {fileID: 6498581462607047689}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8442988333540469768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078091572284049380}
+  m_LocalRotation: {x: 0.23824939, y: -0.00028934327, z: 0.026285509, w: 0.9708482}
+  m_LocalPosition: {x: -0.021783631, y: 0.0019564535, z: 0.021803483}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 5203479436812112913}
+  m_Father: {fileID: 6472466439585099240}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1822838958355398901
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078091572284049380}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008354051
+  m_Height: 0.04900197
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.016146934}
+--- !u!171741748 &6498581462607047689
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078091572284049380}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.021783631, y: 0.0019564535, z: 0.021803483}
+  m_ParentAnchorRotation: {x: 0.23824942, y: -0.00028933585, z: 0.026285514, w: 0.9708483}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 3
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 1
+  m_SwingZ: 1
+  m_Twist: 1
+  m_XDrive:
+    lowerLimit: -15
+    upperLimit: 80
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 19.029741
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 9.309938
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &4158068556820847207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8504934033815659089}
+  - component: {fileID: 5328404358775153907}
+  - component: {fileID: 5359671270418229096}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8504934033815659089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158068556820847207}
+  m_LocalRotation: {x: 0.13037187, y: 0.000000006307508, z: -0.000000068258835, w: 0.9914652}
+  m_LocalPosition: {x: 0.000000114354805, y: -0.00000010430813, z: 0.020772593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2374762016820828639}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &5328404358775153907
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158068556820847207}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.0078073763
+  m_Height: 0.026408128
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.0053966874}
+--- !u!171741748 &5359671270418229096
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158068556820847207}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.00000011156084, y: -0.00000010756776, z: 0.020772602}
+  m_ParentAnchorRotation: {x: 0.13037187, y: 0.000000006519258, z: -0.000000059604645,
+    w: 0.9914653}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 14.9790745
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &4433812691735794846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6955143783183333241}
+  - component: {fileID: 4869658606172278651}
+  - component: {fileID: 7748996350957667927}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6955143783183333241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433812691735794846}
+  m_LocalRotation: {x: 0.12755182, y: 0.017940408, z: -0.071001545, w: 0.9891246}
+  m_LocalPosition: {x: -0.0025353944, y: 0.0037612962, z: 0.021740684}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 7014482109629797330}
+  m_Father: {fileID: 6472466439585099240}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &4869658606172278651
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433812691735794846}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008204789
+  m_Height: 0.052654393
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.018122407}
+--- !u!171741748 &7748996350957667927
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433812691735794846}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.0025353944, y: 0.0037612962, z: 0.021740684}
+  m_ParentAnchorRotation: {x: 0.12755185, y: 0.017940413, z: -0.07100153, w: 0.98912483}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 3
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 1
+  m_SwingZ: 1
+  m_Twist: 1
+  m_XDrive:
+    lowerLimit: -15
+    upperLimit: 80
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 5.5165806
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 3.3990908
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &4586410979565521045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5203479436812112913}
+  - component: {fileID: 988423427197748253}
+  - component: {fileID: 4233811868088320739}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5203479436812112913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4586410979565521045}
+  m_LocalRotation: {x: 0.29635158, y: -0.000000009662471, z: 0.0000000050058584, w: 0.9550789}
+  m_LocalPosition: {x: 0.00000003533205, y: -0.000000054016716, z: 0.032293867}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 4844956910705330173}
+  m_Father: {fileID: 8442988333540469768}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &988423427197748253
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4586410979565521045}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008354051
+  m_Height: 0.03491401
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.009102954}
+--- !u!171741748 &4233811868088320739
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4586410979565521045}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.00000003533205, y: -0.000000054016716, z: 0.032293867}
+  m_ParentAnchorRotation: {x: 0.29635164, y: -0.000000019557774, z: -0.0000000037252903,
+    w: 0.955079}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 34.406174
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &5352561939416553970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747761041453213241}
+  - component: {fileID: 3936861668005116283}
+  - component: {fileID: 3585969698970595422}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747761041453213241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5352561939416553970}
+  m_LocalRotation: {x: 0.084321976, y: -0, z: 0.000000029802319, w: 0.9964386}
+  m_LocalPosition: {x: -0.000000022351742, y: -0.000000021420421, z: 0.043484606}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
+  m_Children:
+  - {fileID: 5931311345741048874}
+  m_Father: {fileID: 3215866317215132126}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &3936861668005116283
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5352561939416553970}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008745866
+  m_Height: 0.043132976
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.012820623}
+--- !u!171741748 &3585969698970595422
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5352561939416553970}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.000000022351742, y: -0.000000021420421, z: 0.043484606}
+  m_ParentAnchorRotation: {x: 0.084322006, y: 0.000000022351742, z: 0.00000006146729,
+    w: 0.9964388}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 9.580311
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &6670785856560937674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4990659214252529192}
+  - component: {fileID: 6627787482003637702}
+  - component: {fileID: 4152126039513202095}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4990659214252529192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6670785856560937674}
+  m_LocalRotation: {x: -0.037772205, y: -0.000000016792844, z: -0.0000000016574944,
+    w: 0.99928635}
+  m_LocalPosition: {x: 0.00000008444645, y: -0.00000009406358, z: 0.014618633}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 9197703531219485598}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &6627787482003637702
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6670785856560937674}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.006935122
+  m_Height: 0.023818545
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.00497415}
+--- !u!171741748 &4152126039513202095
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6670785856560937674}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.0000000825838, y: -0.00000009313226, z: 0.014618646}
+  m_ParentAnchorRotation: {x: -0.03777226, y: -0.000000020489097, z: -0.000000008381903,
+    w: 0.9992869}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: -4.3325067
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &7679962548738748252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4844956910705330173}
+  - component: {fileID: 3591665073182223282}
+  - component: {fileID: 7015302350967564840}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4844956910705330173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679962548738748252}
+  m_LocalRotation: {x: 0.07385036, y: -0.0000000030883989, z: 0.000000011073752, w: 0.9972694}
+  m_LocalPosition: {x: -0.0000000010567698, y: 0.000000007450581, z: 0.018205872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5203479436812112913}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &3591665073182223282
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679962548738748252}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008354051
+  m_Height: 0.026674578
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.004983238}
+--- !u!171741748 &7015302350967564840
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7679962548738748252}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.0000000029194147, y: 0.000000013038516, z: 0.018205877}
+  m_ParentAnchorRotation: {x: 0.07385036, y: 0.000000007450581, z: 0.0000000023283064,
+    w: 0.9972694}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 8.466728
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &7788703704346713583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9197703531219485598}
+  - component: {fileID: 1960424426187116684}
+  - component: {fileID: 2479751214523683383}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9197703531219485598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788703704346713583}
+  m_LocalRotation: {x: 0.32900092, y: 0.000000014901159, z: -0.00000001117587, w: 0.9443296}
+  m_LocalPosition: {x: -0.00000004004687, y: 0.000000026542697, z: 0.026131183}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4990659214252529192}
+  m_Father: {fileID: 5566732615036989814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1960424426187116684
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788703704346713583}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.006935122
+  m_Height: 0.02848886
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.0073093073}
+--- !u!171741748 &2479751214523683383
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7788703704346713583}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.00000004004687, y: 0.000000026542697, z: 0.026131183}
+  m_ParentAnchorRotation: {x: 0.32900104, y: 0.000000007450581, z: -0.000000037252903,
+    w: 0.94433}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 38.336285
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &8118864942490846174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1400675414676991091}
+  - component: {fileID: 5280609977021497551}
+  - component: {fileID: 5166823304223281306}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1400675414676991091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118864942490846174}
+  m_LocalRotation: {x: 0.08697414, y: 0.000000019037403, z: 0.000000014125405, w: 0.9962106}
+  m_LocalPosition: {x: -0.000000038951708, y: 0.0000000041909507, z: 0.021338778}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7014482109629797330}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &5280609977021497551
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118864942490846174}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008204789
+  m_Height: 0.027279919
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.0054351706}
+--- !u!171741748 &5166823304223281306
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118864942490846174}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.000000041261824, y: 0.0000000065192562, z: 0.021338785}
+  m_ParentAnchorRotation: {x: 0.086974196, y: 0.000000027939677, z: 0.00000003213063,
+    w: 0.9962109}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 9.9745865
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &8201221699524754778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5566732615036989814}
+  - component: {fileID: 4306825449858162658}
+  - component: {fileID: 6729093315856697260}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5566732615036989814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201221699524754778}
+  m_LocalRotation: {x: -0.096994296, y: 0.15949337, z: -0.15773104, w: 0.9696778}
+  m_LocalPosition: {x: 0.033273008, y: -0.0000073048286, z: 0.009312877}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 9197703531219485598}
+  m_Father: {fileID: 6472466439585099240}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &4306825449858162658
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201221699524754778}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.006935122
+  m_Height: 0.04000141
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.013065583}
+--- !u!171741748 &6729093315856697260
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8201221699524754778}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.033273008, y: -0.0000073048286, z: 0.009312877}
+  m_ParentAnchorRotation: {x: -0.096994296, y: 0.15949339, z: -0.15773106, w: 0.969678}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 3
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 1
+  m_SwingZ: 1
+  m_Twist: 1
+  m_XDrive:
+    lowerLimit: -15
+    upperLimit: 80
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: -18.186003
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: -0.28871408
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &8425460787621616264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3215866317215132126}
+  - component: {fileID: 1715807529825022640}
+  - component: {fileID: 3046654467408721431}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3215866317215132126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425460787621616264}
+  m_LocalRotation: {x: -0.018564044, y: -0.31257287, z: 0.5279255, w: 0.7894607}
+  m_LocalPosition: {x: -0.017958036, y: -0.005711397, z: -0.05003224}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 1747761041453213241}
+  m_Father: {fileID: 6472466439585099240}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1715807529825022640
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425460787621616264}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008745866
+  m_Height: 0.06097633
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.0217423}
+--- !u!171741748 &3046654467408721431
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425460787621616264}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: -0.017958036, y: -0.005711397, z: -0.05003224}
+  m_ParentAnchorRotation: {x: -0.018564032, y: -0.31257293, z: 0.52792555, w: 0.78946084}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 3
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 1
+  m_Twist: 1
+  m_XDrive:
+    lowerLimit: -15
+    upperLimit: 80
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 1.8097916
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: -18.41236
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: -15
+    upperLimit: 15
+    stiffness: 100
+    damping: 6
+    forceLimit: 1000
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
+--- !u!1 &8635597210140847422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7014482109629797330}
+  - component: {fileID: 3611932864048125930}
+  - component: {fileID: 3480716318296061780}
+  m_Layer: 12
+  m_Name: Right Articulation Hand Finger 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7014482109629797330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635597210140847422}
+  m_LocalRotation: {x: 0.15342456, y: -0.000000007450581, z: -0.000000020372681, w: 0.98816043}
+  m_LocalPosition: {x: 0.00000004476169, y: -0.000000053085394, z: 0.03624482}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 1400675414676991091}
+  m_Father: {fileID: 6955143783183333241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &3611932864048125930
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635597210140847422}
+  m_Material: {fileID: 13400000, guid: 7589b04e96bd3c04bb25a021d4b91fc2, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.008204789
+  m_Height: 0.03774835
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.010669387}
+--- !u!171741748 &3480716318296061780
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8635597210140847422}
+  m_Enabled: 1
+  m_Mass: 0.6
+  m_ParentAnchorPosition: {x: 0.00000004476169, y: -0.000000053085394, z: 0.03624482}
+  m_ParentAnchorRotation: {x: 0.15342459, y: -0.000000013038516, z: -0.000000062864274,
+    w: 0.9881606}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ComputeParentAnchor: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 2
+  m_LinearZ: 2
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 2
+  m_XDrive:
+    lowerLimit: -10
+    upperLimit: 89
+    stiffness: 100
+    damping: 3
+    forceLimit: 1000
+    target: 17.550606
+    targetVelocity: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_Immovable: 0
+  m_UseGravity: 1
